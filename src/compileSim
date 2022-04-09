@@ -1,0 +1,5 @@
+gcc -ansi -c deque.c -o deque.o
+gcc -ansi -c simulatorBase.c -o simulatorBase.o
+gcc -ansi -c runSimulations.c -o runSimulations.o
+
+gcc deque.o simulatorBase.o runSimulations.o  -o runSimulations
